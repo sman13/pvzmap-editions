@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мультипункт: Базовая и Премиум</title>
+<meta name="description" content="Чем Базовая версия плагина доставки «Мультипункт» для Shop-Script отличается от Премиум.">
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--text:#1f2933;--muted:#667085;--line:#e4e7ec;--accent:#1d6fdc;--yes:#12805c;--no:#667085;--head:#eef4fd}
+@media (prefers-color-scheme:dark){:root{--bg:#14171c;--card:#1c2027;--text:#e6e9ee;--muted:#9aa4b2;--line:#2c323b;--accent:#6aa8ff;--yes:#4cc59a;--no:#9aa4b2;--head:#222a36}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+main{max-width:820px;margin:0 auto;padding:32px 16px 56px}
+h1{font-size:28px;line-height:1.25;margin:0 0 12px}
+h2{font-size:20px;margin:36px 0 12px}
+p{margin:0 0 12px}
+.lead{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+table{width:100%;border-collapse:collapse}
+th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+thead th{background:var(--head);font-size:14px}
+th.c,td.c{text-align:center;width:110px;white-space:nowrap}
+.yes{color:var(--yes);font-weight:600}
+.no{color:var(--no)}
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:0 0 16px}
+.price{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.price b{display:block;font-size:22px}
+.price span{color:var(--muted);font-size:14px}
+ul{padding-left:20px;margin:0 0 12px}
+li{margin-bottom:8px}
+footer{margin-top:40px;color:var(--muted);font-size:14px}
+a{color:var(--accent)}
+@media (max-width:560px){th,td{padding:10px 8px;font-size:15px}th.c,td.c{width:72px}h1{font-size:24px}}
+</style>
+</head>
+<body>
+<main>
+<h1>Мультипункт: чем Базовая версия отличается от Премиум</h1>
+<p class="lead">Мультипункт (Multipoint) — плагин доставки для Shop-Script (Webasyst). Покупатель выбирает способ получения заказа в одном блоке с вкладками: пункты выдачи Ozon, 5Post и Яндекс Маркета на карте или Почта России по домашнему адресу. Цены задаёте вы. Ключи и договоры со службами доставки не нужны.</p>
+
+<h2>Сравнение версий</h2>
+<div class="card">
+<table>
+<thead><tr><th>Возможность</th><th class="c">Базовая<br>бесплатно</th><th class="c">Премиум</th></tr></thead>
+<tbody>
+<tr><td>Ozon: пункты выдачи и постаматы на карте, вся Россия</td><td class="c yes">да</td><td class="c yes">да</td></tr>
+<tr><td>Почта России: индекс и адрес покупателя, вся Россия</td><td class="c yes">да</td><td class="c yes">да</td></tr>
+<tr><td>Таблица цен по регионам</td><td class="c yes">да</td><td class="c yes">да</td></tr>
+<tr><td>Поиск по адресу, часы работы пунктов, группировка меток</td><td class="c yes">да</td><td class="c yes">да</td></tr>
+<tr><td>Поле «Не нашли свой пункт? Укажите адрес»</td><td class="c yes">да</td><td class="c yes">да</td></tr>
+<tr><td>Новое и старое оформление заказа Shop-Script</td><td class="c yes">да</td><td class="c yes">да</td></tr>
+<tr><td>5Post (магазины Пятёрочка и Перекрёсток, постаматы, пункты)</td><td class="c no">нет</td><td class="c yes">да</td></tr>
+<tr><td>Яндекс Маркет (пункты выдачи и постаматы)</td><td class="c no">нет</td><td class="c yes">да</td></tr>
+<tr><td>Бесплатная доставка от заданной суммы заказа</td><td class="c no">нет</td><td class="c yes">да</td></tr>
+<tr><td>Собственные пункты выдачи: добавляются в настройках, место выбирается на карте</td><td class="c no">нет</td><td class="c yes">да</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Как получить Премиум</h2>
+<p>Премиум подключается внутри Webasyst, на странице плагина в Установщике.</p>
+<div class="prices">
+<div class="price"><b>1 490 ₽</b><span>годовая лицензия</span></div>
+<div class="price"><b>3 990 ₽</b><span>лицензия навсегда</span></div>
+<div class="price"><b>7 дней</b><span>пробный период, бесплатно</span></div>
+</div>
+<p>После оплаты дополнительные возможности включаются сами, переустанавливать плагин не нужно. Если лицензия закончилась, плагин продолжает работать как Базовая версия: Ozon и Почта России, настройки и цены сохраняются.</p>
+<p><a href="https://www.webasyst.ru/store/plugin/shipping/pvzmap/">Страница плагина в магазине Webasyst</a></p>
+
+<h2>Важно знать для обеих версий</h2>
+<ul>
+<li>Плагин не передаёт заказы в службы доставки и не отслеживает посылки. Отправку каждого заказа вы оформляете сами, в личном кабинете или приложении службы, взяв адрес пункта из заказа.</li>
+<li>Списки пунктов взяты из открытой карты OpenStreetMap и лежат внутри плагина. Они могут быть неполными, особенно в небольших городах и новых регионах.</li>
+<li>Плагин не связан со службами доставки и не является их официальным продуктом.</li>
+</ul>
+
+<footer>Данные карты © участники OpenStreetMap (ODbL).</footer>
+</main>
+</body>
+</html>
